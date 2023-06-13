@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d4gixsp*@9o^$0*kdkb38&u*0)t4&v*z)0k0&h^wfs3i$-dpya
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://bekir-hw.onrender.com]
 
 
 # Application definition
