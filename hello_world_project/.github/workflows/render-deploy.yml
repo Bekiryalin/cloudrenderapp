@@ -1,0 +1,13 @@
+name : Render Deploy
+on:
+  push:
+    branches:
+      -main
+
+jobs:
+  pusblish-render:
+    runs-on: pytubuntu-latest
+    steps:
+      - name : Deploy Hook
+        run: curl ${{ secrets.DEPLOY_HOOK }}
+
